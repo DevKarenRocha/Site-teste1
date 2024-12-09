@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d8bff9;
+    color:#6300f7;
+}
+
+.navbar{
+    margin-bottom:0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index:999;
+}
+
+.container-fluid{
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.navegador{
+    background-color: #6d48a6;
+}
+
+.navegador img{
+    height: 50px;
+    width: 50px;
+}
+
+.navegador span{
+    color: #d8bff9;
+}
+
+.navegador a{
+    color: #d8bff9;
+}
