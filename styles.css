@@ -51,3 +51,29 @@
  .features .card:hover{
     transform: scale(1.2);
  }
+
+ 
+/* Estilo do Card */
+.book-card {
+    position: relative;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #f9f9f9;
+}
+
+.book-card:hover {
+    transform: scale(1.05); /* Aumenta levemente o tamanho do card */
+}
+
+.book-card img{
+    width: 400px;
+    height: 200px;
+}
+
+.star-rating {
+    color: #fbc02d;
+    font-size: 1.2rem;
+}
