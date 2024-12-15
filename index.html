@@ -9,6 +9,7 @@
          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
          <!--CSS EXTERNO-->
          <link rel="stylesheet" href="styles.css">
@@ -27,17 +28,18 @@
                      </button>
                      <div class="collapse navbar-collapse" id="navbarNav">
                          <ul class="navbar-nav ms-auto">
-                             <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
-                             <li class="nav-item"><a class="nav-link" href="#meus-livros">MEUS LIVROS</a></li>
-                             <li class="nav-item"><a class="nav-link" href="#adaptacoes">ADAPTAÇÕES</a></li>
+                             <li class="nav-item"><a class="nav-link" href="index.html#home">HOME</a></li>
+                             <li class="nav-item"><a class="nav-link" href="index.html#sobre">SOBRE</a></li>
+                             <li class="nav-item"><a class="nav-link" href="index.html#generos">GENEROS</a></li>
+                             <li class="nav-item"><a class="nav-link" href="index.html#meus-livros">MEUS LIVROS</a></li>
                          </ul>
                      </div>
                  </div>
              </nav>
          </div>
         
-         <!--BANNER-->
-         <header class="banner">
+         <!--HOME-->
+         <header class="banner" id="#home">
              <div class="container-fluid">
                  <figure>
                      <img class="banner img-fluid" src="img/banner.png" alt="banner"><br><br>
@@ -46,8 +48,8 @@
          </header>
          <main>
 
-             <!--HOME-->
-             <section id="home">
+             <!--SOBRE-->
+             <section class="sobre" id="#sobre">
                  <div class="container-fluid">
                      <div class="row align-items-center">
                          <div class="col-md-6 text-center">
@@ -71,7 +73,7 @@
              </section>
 
              <!-- GÊNEROS LITERÁRIOS -->
-             <section class="features py-5" id="meus-livros">
+             <section class="features py-5" id="#generos">
                  <div class="container">
                      <div class="row g-3 justify-content-center">
                          <div class="col-2">
@@ -133,7 +135,7 @@
              </section>
 
              <!--LIVROS-->
-             <section class="container my-5">
+             <section class="container my-5" id="#meus-livros">
                  <div class="row g-4">
                      <!-- CARD 1 -->
                      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
@@ -465,7 +467,73 @@
                              </div>
                          </a>
                      </div>
+                     <!--CARD 31-->
+                     <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                         <a href="livro31.html" class="card-link">
+                             <div class="card book-card">
+                                 <img src="img/livros/oabismodecelina.jpg" alt="O ABISMO DE CELINA" class="img-fluid">
+                                 <div class="card-body text-center">
+                                     <p class="card-title">O ABISMO DE CELINA</p>
+                                 </div>
+                             </div>
+                         </a>
+                     </div>
+                     <!--CARD 32-->
+                     <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                         <a href="livro32.html" class="card-link">
+                            <div class="card book-card">
+                                 <img src="img/livros/harrypoter1.jpg" alt="HARRY POTTER E A PEDRA FILOSOFAL" class="img-fluid">
+                                 <div class="card-body text-center">
+                                     <p class="card-title">HARRY POTTER E A PEDRA FILOSOFAL</p>
+                                 </div>
+                             </div>
+                         </a>
+                     </div>
+                     <!--CARD 33-->
+                     <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                         <a href="livro33.html" class="card-link">
+                             <div class="card book-card">
+                                 <img src="img/livros/harrypoter2.jpg" alt="HARRY POTTER E A CÂMARA SECRETA" class="img-fluid">
+                                 <div class="card-body text-center">
+                                     <p class="card-title">HARRY POTTER E A CÂMARA SECRETA</p>
+                                 </div>
+                             </div>
+                         </a>
+                     </div>
+                     <!--CARD 34-->
+                     <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                         <a href="livro34.html" class="card-link">
+                             <div class="card book-card">
+                                 <img src="img/livros/harrypoter3.jpg" alt="HARRY POTTER E O PRISIONEIRO DE AZKABAN" class="img-fluid">
+                                 <div class="card-body text-center">
+                                     <p class="card-title">HARRY POTTER E A CÂMARA SECRETA</p>
+                                 </div>
+                             </div>
+                         </a>
+                     </div>
+                 </div>
              </section>
          </main>
+         <footer>
+             <div class="footer-content">
+                 <div class="footer-section about">
+                     <h2>Agradecimentos</h2>
+                     <p>Agradecemos por ter visitado no nosso site. Obrigado por fazer parte da nossa jornada literária!.</p>
+                 </div>
+                 <div class="footer-section contact">
+                     <div class="social-icons">
+                         <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                         <a href="https://wa.me/5511987654321" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                         <a href="https://x.com" target="_blank" class="social-icon"><i class="fab fa-x"></i></a>
+                     </div>
+                 </div>
+             </div>
+             <div class="footer-bottom">
+                 <p>&copy; 2024 MY BOOKS. Todos os direitos reservados.</p>
+             </div>
+         </footer>
+         <!-- Botão para rolar para o topo -->
+         <button id="scrollToTopBtn" class="scroll-to-top">&#8593;</button>
+         <script src="script.js"></script>
      </body>
  </html>
